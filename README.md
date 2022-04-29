@@ -1,19 +1,18 @@
 # CustomClenderPicker
 
 #### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
-
+[输入链接说明](https://gitee.com/xiyg/common-package/blob/master/Simulator%20Screen%20Shot%20-%20iPhone%208%20-%202022-04-28%20at%2020.43.53.png)
 #### 软件架构
 软件架构说明
-
-
+MVC
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  Framework 导入
+2.  XCFramework 导入
+3.  Cocopods 导入
+4.  Swift Package Manager  导入
+5.  Carthage  导入
+
 
 #### 使用说明
 
