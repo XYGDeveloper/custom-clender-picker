@@ -32,3 +32,14 @@ MVC
 
 5.  Carthage  导入
 
+- Install Carthage 0.33.0 or later.
+- Add github "CustomClenderPicker" to your Cartfile.
+- Run carthage update.
+- Drag CustomClenderPicker.framework from the project directory in Carthage/Build/ to the “Linked Frameworks and Libraries” section of your Xcode project’s “General” settings.
+- iOS/tvOS/watchOS: On your application target’s “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase”. Create a Run Script with the following contents:
+
+`/usr/local/bin/carthage copy-frameworks`
+- and add the paths to the frameworks you want to use under “Input Files”, :
+
+`$(SRCROOT)/Carthage/Build/iOS/Realm.framework$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework`
+This script works around an App Store submission bug triggered by universal binaries.
