@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name               = "CustomClenderPicker"
-  spec.version            = "1.0.2"
+  spec.version            = "1.0.3"
   spec.summary            = "CustomClenderPicker Library for iOS apps"
   spec.description        = "CustomClenderPicker Library for iOS apps. time picker to select time"
   spec.homepage           = "https://gitee.com/xiyg/projects"
