@@ -16,5 +16,4 @@ Pod::Spec.new do |spec|
   # Published binaries
   spec.vendored_frameworks = "Sources/CustomClenderPicker.xcframework"
   # spec.dependency 'PromisesSwift', '1.2.8' # Third Party Dependency
-
 end
